@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+    /* Search */
+}
+
+body {
+
+    max-width: 1440px;
+    margin: auto;
+    background-color: black;
+    position: relative;
+}
+
+nav {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+   
+}
+
+nav ul li {
+   
+    margin-right: 50px;
+    font-weight: 300;
+    color: aliceblue;
+    font-size: 18px;
+    list-style: none;
+}
+nav button {
+    color: white;
+    background-color: rgb(43, 136, 217);
+    padding: 13px 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    top: 10px;
+}
+
+/* left section */
+   .banner-container {
+    padding:5% 5%;
+}
+
+.banner-container h1 {
+    font-size: 70px;
+    color: white;
+  
+}
+
+.banner-container span {
+    color:rgb(43, 136, 217);
+    font-style: italic;
+}
+
+.banner-container p {
+    color: rgb(103, 101, 101);
+    margin: 2% 0%;
+    font-size: 20px;
+}
+
+.button1 {
+    color: white;
+    background-color: rgb(43, 136, 217);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.button2{
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+    border:solid 1px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+
+}
+/* right section */
+.right-image{
+    position:relative;
+    left: 55%;
+    margin-top:-35%;
+    width: 500px;
+    margin-bottom: 7%;
+}
+
+ /*firt page bottam*/
+.Image{
+     background-color: rgb(46, 43, 43);
+}
+
+.logo ul {
+    background-color: rgb(37, 37, 37);
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:8%;
+    list-style: none;
+ }
+
+
+/* second page */
+.container2{
+    background-color: white;
+
+}
+.container2 h1{
+    padding-top:8%;
+    font-size:60px;
+    padding-left: 20%;
+}
+.container2 p{
+    color: rgb(64, 63, 63);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 2%;
+           
+}
+.box {
+    display: flex;
+    align-items: center;
+    padding: 10% 5%;
+    justify-content: space-between;
+    
+}
+
+ .subbox {
+    background-color: white;
+    border: solid 2px rgb(223, 221, 221);
+    width:300px;
+    padding:3%;
+    border-radius: 25px;
+  
+}
+
+.subbox img{
+    padding-left:30%;
+    padding-bottom: 8%;
+}
+
+.subbox h1{
+    font-size:30px;
+    width:300px;
+    padding:3% 4%;
+  
+}
+
+.subbox p{
+    color: rgb(77, 78, 79);
+    font-size: 18px;
+    padding: 5%;
+}
+
+.subbox2 {
+    background-color:black;
+    border: solid 2px black;
+    width: 300px;
+    padding: 3%;
+    border-radius: 25px;
+    margin-top: -12%;
+
+}
+.subbox2 h1 {
+    font-size: 30px;
+    width: 300px;
+    padding: 3% 4%;
+    color: #ffffff;
+}
+
+.subbox2 p {
+    color: rgb(182, 183, 183);
+    font-size: 16px;
+    padding: 5%;
+}
+
+.subbox2 img {
+    padding-left:35%;
+    padding-bottom: 8%;
+}
+
+/* 3rd page start from here*/
+
+.container3  h1 {
+    font-size:50px;
+   padding-left: 5%;
+   padding-bottom: 5%;
+   margin-top: -10%;
+   display: flex;
+}
+.main3{
+    display: flex;
+ padding-bottom: 10%;
+}
+.left ul li:first-child {
+    background-color:rgb(48, 152, 217);
+}
+.left ul li:first-child p{
+    color: #ffffff;
+}
+.left ul li {
+    display: flex;
+    background-color:#ffffff;
+    border-radius: 40px;
+    border: 1px solid rgb(212, 210, 210);
+    width: 250%;
+    justify-content: space-between;
+    align-items:center;
+    margin-top:10%;
+}
+
+.left ul{
+margin-left: 20%;
+
+}
+.left ul li p{
+padding: 1% 5%;
+    color: black;
+    font-weight: 500;
+}
+
+.left ul li img{
+    height: 25px;
+        padding: 4% 5%;
+
+}
+.right {
+    left: 38%;
+    border: 1px solid black;
+    border-radius: 25px;
+    width:30%;
+    background-color: black;
+    color: rgb(225, 223, 223);
+    position: relative;
+   font-size: small;
+    padding:1% 0%;
+ 
+}
+.right ul li {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 85%;
+    padding:4% 4% ;
+    background-color: rgb(49, 49, 49); 
+    display: flex;
+    align-items: center;
+    margin: 2% 2%;
+}
+
+/*  4th page */
+.container4{
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+.container4 h1{
+    padding: 5% 0%;
+  text-align: center;
+  font-size: 50px;
+}
+.arrow{
+    padding: 3% 7%;
+}
+.Cards{
+    padding:5% 6%;
+    display: flex;
+    gap: 1%;
+}
+/* cards*/
+.regular-card{
+    border: 1px  beige;
+    color:black;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 2% 2%;
+    width: 400px;
+
+}
+.regular-card h2 {
+   font-size: 40px;
+}
+
+.regular-card h1 span {
+    color: rgb(207, 204, 204);
+    font-size: 35px;
+}
+.regular-card p {
+    font-size: 18px;
+    text-align: start;
+    color: black;
+    padding-top: 3%;
+}
+.regular-card ul {
+    padding-top: 7%;
+}
+.regular-card ul li {
+   display: flex;
+   align-items: center;
+   padding: 2% 0%;
+   font-weight: 500;
+   list-style: none;
+}
+.regular-card ul li p{
+    align-items: center;
+    padding: 2% 5%;
+    color: black;
+}
+.regular-card button{
+    border: none;
+    padding: 5% 42%;
+    background-color: rgb(73, 168, 227);
+    color: #ffffff;
+    margin-left: 2%;
+    border-radius: 25px;
+    margin-top: 7%;
+}
+
+/*standerd card*/
+.Standard-card {
+    border: 1px  beige;
+    color:#ffffff;
+    background-color:rgb(48, 152, 217);
+    border-radius: 25px;
+    padding: 2% 2%;
+    margin-left: 2%;
+    width: 400px;
+}
+
+.Standard-card h2 {
+    font-size: 40px;
+}
+
+.Standard-card h1 span {
+    color: rgb(207, 204, 204);
+    font-size: 35px;
+}
+.Standard-card p {
+    font-size: 18px;
+    text-align: start;
+    color: #ffffff;
+    padding-top: 3%;
+}
+
+.Standard-card ul {
+    padding-top: 7%;
+}
+
+.Standard-card ul li {
+    display: flex;
+    align-items: center;
+    padding: 2% 0%;
+    font-weight: 500;
+    list-style: none;
+}
+
+.Standard-card ul li p {
+    align-items: center;
+    padding: 2% 5%;
+    color:#ffffff;
+    
+}
+
+.Standard-card button {
+    border: none;
+    padding: 5% 42%;
+    background-color:#ffffff;
+    color:rgb(48, 152, 217);
+    margin-left: 2%;
+    border-radius: 25px;
+    margin-top: 7%;
+}
+
+/*Preminum*/
+.preminum-card {
+    border: 1px beige;
+    color: black;
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 2% 2%;
+    margin-left: 2%;
+    width: 400px;
+}
+
+.preminum-card h2 {
+    font-size: 40px;
+}
+.preminum-card h1 span {
+    color: rgb(207, 204, 204);
+    font-size: 35px;
+}
+.preminum-card p {
+    font-size: 18px;
+    text-align: start;
+    color: black;
+    padding-top: 3%;
+}
+.preminum-card ul {
+    padding-top: 7%;
+}
+.preminum-card ul li {
+    display: flex;
+    align-items: center;
+    padding: 2% 0%;
+    font-weight: 500;
+    list-style: none;
+}
+.preminum-card ul li p {
+    align-items: center;
+    padding: 2% 5%;
+    color: black;
+}
+.preminum-card button {
+    border: none;
+    padding: 5% 42%;
+    background-color: rgb(48, 152, 217);
+    color: #ffffff;
+    margin-left: 2%;
+    border-radius: 25px;
+    margin-top: 7%;
+}
+
+/*  4th page */
+.container5{
+    display: flex;
+    color:black;
+    padding:5% 5%;
+    background-color: #ffffff;
+}
+.container5 h1{
+    font-size: 60px;
+  }
+.container5 p{
+   padding-left: 30%;
+   width: 30%;
+}
+.main-box{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding:0% 5%;
+    padding-bottom: 7%;
+}
+/*back-box*/
+.black-box{
+    border: 1px black solid;
+    border-radius: 20px;
+    width: 48%;
+    background-color: black;
+    color: #ffffff;
+   
+}
+.black-box ul{
+    padding: 2% 4%;
+}
+
+.black-box ul li {
+    padding: 2% 0%;
+    list-style: none;
+    font-size: 18px;
+}
+.black-box ul p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.black-box img{
+    padding:4% 0%;
+}
+/*white-box*/
+
+.white-box {
+    border: 1px rgb(174, 173, 173) solid;
+    border-radius: 20px;
+    width: 48%;
+    background-color:#ffffff;
+    color: black;
+
+}
+.white-box ul {
+    padding: 2% 4%;
+}
+
+.white-box ul li {
+    padding: 2% 0%;
+    list-style: none;
+    font-size: 18px;
+}
+
+.white-box ul p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.white-box img {
+    padding: 4% 0%;
+}
+
+/*fifth-page*/
+.container6{
+    background-color: black;
+    padding: 3% 5%;
+}
+.sign-up ul{
+     display: flex;
+     border: 1px  black;
+     padding: 3% 3%;
+     justify-content: space-between;
+     border-radius: 25px;
+     align-items: center;
+     background-color: rgb(57, 57, 57);
+     margin-bottom: 7%;
+}
+.sign-up h1 {
+    padding-bottom: 5%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    width: 80%;
+    padding:5% 10%;
+}
+.sign-up ul input {
+    border: 1px  black;
+    padding: 6% 10%;
+    border-radius: 25px;
+    width: 250px;
+    background-color: rgb(72, 71, 71);
+    color: rgb(210, 208, 208);
+}
+.sign-up ul li {
+    list-style:none;
+}
+.sign-up ul button{
+    border: 1px ;
+    padding: 10% 10%;
+    border-radius: 25px;
+    width: 150px;
+    background-color: rgb(48, 152, 217);
+    color: #ffffff;
+}
+.custom-line {
+    border: none;
+    border: 1px solid rgb(237, 233, 233);
+}
+.Bottom{
+    color: #ffffff;
+    padding: 4% 10%;
+
+}
+.main-list{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.main-list li{
+    list-style: none;
+    font-size: 22px;
+}
+
+.child-list li {
+    font-size: 18px;
+    padding: 5% 0%;
+}
+.line{
+    padding:3% 5%;
+}
+.logo{
+    padding: 0% 5%;
+    padding-bottom: 5%;
+}
+
+/*end*/

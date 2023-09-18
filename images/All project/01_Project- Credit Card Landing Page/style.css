@@ -1,0 +1,370 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    max-width: 1440px;
+    margin: auto;
+    background-color: black;
+    position: relative;
+    
+}
+/* nav bar*/
+nav {
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+  
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 300;
+    color:aliceblue;
+}
+
+.eng {
+    height: 40px;
+    background: none;
+    border-style: hidden;
+    color: #ffffff;
+}
+
+.btn-pink{
+    position: relative;
+    top: 6px;
+    left: 24px;
+    
+}
+
+.contact {
+    border-style: none;
+    color: #ffffff;
+    background: none;
+    padding-top: 25px;
+}
+
+.bg-card{
+    padding-left:30%; 
+    height: 700px;  
+    margin-top: -60px;
+    position: absolute;
+}
+.front-card{
+    padding-left:42.9%;
+    height: 700px;
+   position: absolute;
+   padding-top: 60px;
+}
+/* Main section*/
+.hero h1{
+    padding:0 5% ;
+    color:#ffffff;
+    font-size: 85px;
+    padding-top:8%;
+}
+
+.hero span{
+    color: rgb(241, 78, 214);
+}
+
+.hero p{
+    color: rgb(99, 101, 104);
+    padding: 0 5%;
+    padding-top: 6%;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.get-st{
+    padding: 8% 5%;
+}
+
+.get-st button{
+    background:none;
+    color: #ffffff;
+    border: hidden;
+    font-size: 20px;
+    position: relative;
+    left: -30px;
+    top: 0px;
+}
+.bg-pink{
+    height: 25px;
+    width: 60px;
+}
+
+.get-started{
+   top:-5px;
+   position: relative;
+}
+
+.Users ul{
+    color: #ffffff;
+   padding: 1% 5%;
+   display: flex;
+   list-style: none;
+   margin-bottom:8%;
+}
+
+.Users ul h1 {
+    font-size: 60px;
+}
+.vector-logo{
+    padding-right: 2%;
+}
+
+.Users ul p{
+   font-size: 18px;
+}
+
+.Users ul span{
+   color: rgb(241, 78, 214);
+   font-size: 50px;
+   font-weight: 800;
+}
+
+.Users ul li{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+/* 1st page bottom */
+.bottom{
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(29, 29, 29);
+}
+
+/* 2end page*/
+.payment-service{
+  color: #ffffff;
+  padding: 8% 5%;
+    display: flex;
+}
+.payment-service h1{
+    font-size: 60px;
+}
+.payment-service span{
+    color: rgb(241, 78, 214);
+}
+.payment-service p{
+    font-size: 25px;
+    padding:5% 0%;
+   color: rgb(167, 165, 165);
+}
+
+/* 2end page1.1*/
+
+.transaction-box ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 8%;
+    margin-bottom: 5%;
+ 
+    
+}
+.box{
+    border:1px solid rgb(251, 247, 247);
+    background-color: rgb(45, 43, 43);
+    width: 350px;
+    height: 310px;
+ 
+}
+.box img{
+    padding: 3% 22%;
+}
+.box p {
+    padding: 3%;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 25%;
+}
+.box2{
+    border: 1px solid rgb(251, 247, 247);
+    background-color: rgb(96, 94, 94);
+    width: 350px;
+    height: 310px;
+    position: relative;
+   top: -60px;
+}
+.box2 img {
+    padding: 3% 22%;
+}
+
+.box2 p {
+    padding: 3%;
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 25%;
+}
+
+/*3rd page*/
+.card-choice{
+    padding: 5% 5%;
+    background-color: #f5eef3;
+    color: black;
+    text-align: center;
+}
+.card-choice h1{
+    font-size: 70px;
+    width: 65%;
+    padding-left: 20%;
+}
+.card-choice span{
+    color: rgb(241, 78, 214);
+
+}
+.card-choice p{
+    font-size: 20px;
+    font-weight: 500;
+    width:45%;
+    padding-top: 5%;
+    padding-left: 30%;
+}
+.card-choice img{
+    margin-top: -25px;
+    margin-bottom: -10%;
+   
+}
+ 
+/*4th page*/
+.features{
+    padding: 5% 5%;
+    text-align: center;
+    color:#ffffff;
+
+}
+.features h1{
+    font-size:70px;
+    width: 70%;
+    padding-left: 15%;
+}
+.features span{
+    color: rgb(241, 78, 214);
+}
+.features p{
+    font-size:20px;
+    margin: 5%;
+    width: 40%;
+    padding-left: 25%;
+}
+.feature-box ul {
+    color: #ffffff;
+    padding: 0% 10%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 6%;
+}
+
+.first-box {
+    background-color: rgb(80, 79, 72);
+}
+
+.feature-box ul li{
+    border:1px solid whitesmoke;
+    width: 450px;
+    padding:1% 2%;
+    font-size: 18px;
+}
+
+.para2{
+    padding-top: 6%;
+    }
+.para1{
+
+    padding-top: 5%;
+}
+
+.other-box{
+    background-color: rgba(18, 18, 20, 0.954);
+}
+
+
+/*5th page*/
+
+.reactangle1 {
+    position: absolute;
+    width: 1349px;
+}
+.reactangle2{
+    position: absolute;
+    width: 1349px;
+}
+.Diamond-left{
+    position: absolute;
+    padding-left: 55%;
+}
+.Diamond-right {
+    position: absolute;
+   
+}
+.fifth-page {
+     display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.fifth-page h1{
+    color: #ffffff;
+    position: absolute;
+    padding-top: 10%;
+    font-size: 70px;
+    width: 60%;
+}
+.fifth-page span{
+    color: rgb(31, 14, 26);
+}
+.get-started1{
+    padding-top: 25%;
+
+}
+.get-started1 button {
+    background: none;
+    color: #ffffff;
+    border: hidden;
+    font-size: 20px;
+    position: relative;
+    left: -30px;
+    top: -5px;
+    font-weight: 700;
+}
+
+.bg-pink1 {
+    height: 25px;
+    width: 60px;
+}
+
+.get-started1 {
+    top: -5px;
+    position: relative;
+    margin-bottom: 5%;
+}
+/*bottom nav*/
+.bootom-nav {
+    display: flex;
+    padding: 10% 5%;
+}
+
+.bootom-nav ul {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 20%;
+}
+
+.bootom-nav ul li {
+    list-style: none;
+    margin-right: 60px;
+}

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0401c6ba20.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+      <div class="container">
+        <nav>
+            <img src="./images/Rahul.logo.png" class="logo" alt="logo">
+            <ul id="sidemenu">
+                <i id="menu-icon" class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Servises</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contct">Contact</a></li>
+                 </ul>
+                 <i id="menu-icon" class="fa-solid fa-bars"onclick="openmenu()"></i>
+               
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Rahul</span> <br> Parmar from  India</h1>
+        </div>
+      </div>
+    </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/IMG20210319140844_00.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About Me</h1>
+                <p>Dedicated learner with a Master's in Computer Applications from Dr. APJ Abdul Kalam University. Tenacious experience, including Business financial fraud detection at Revolut and full-stack expertise from iNeuron Boot Camp2.O. Proficient in HTML, CSS, JavaScript, React, Tailwind, Bootstrap and more. A tech enthusiast with a bright future ahead.</p>
+                 
+                <div class="tab-tittle">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+             </div>
+             <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Programming language</span><br>HTML, Css, JavaScript, React js.</li>
+                    <li><span>Responsive UI-Web Design</span><br>Tailwind-Css, Bootstrap, Github.</li>
+                    <li><span>Soft Skills</span><br>Profesional Communication, Collaboration Problem-Soloving,Creativity and Learning.</li>
+                </ul>
+             </div>
+
+             <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2017 - 2019</span><br>Document varification  Speciallist at<span> Teleperformance.</span></li>
+                    <li><span>2019 - 2021</span><br>Business transaction mornitring at<span> Revolut.</span></li>
+                    <li><span>2022-2023</span><br>Web development intership at<span> iNueron, PW-skills.</span></li>
+                </ul>
+             </div>
+
+             <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2013</span><br> 12th  <span> ( MP Board - Indore )</span></li>
+                    <li><span>2017</span><br> BCA  <span>( Davv University - Indore )</span></li>
+                    <li><span>2023</span><br>MCA <span>( Dr APJ Abdul kalam University - Indore )</span></li>
+                </ul>
+             </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------Services-------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-tittle">My Services</h1>
+        <div class="services-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Application Development</h2>
+            <p>Creating dynamic, interactive web apps for diverse purposes and improving the design and user experience of existing. </p>
+            <a href="#">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2>UI/UX Design</h2>
+            <p>Elevate user experiences with my UI/UX design expertise. Intuitive interfaces, compelling visuals, and user-centric design for impactful web solutions. </p>
+            <a href="#">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fa-brands fa-react"></i> 
+            <h2>React Web Development</h2>
+            <p>Unlock the power of React for your website. Dynamic, responsive, and feature-rich web development to enhance your online presence. </p>
+            <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!----------Portfolio-------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/All project/01_Project- Credit Card Landing Page/Credit card landing page.png" alt="">
+                <div class="layer">
+                    <h3>Credit Card page</h3>
+                    <p> Credit card: rewards, convenience, security. Apply now.</p>
+                    <a href="./images/All project/01_Project- Credit Card Landing Page/Index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/All project/02_Project- Hosting Site Landing Page/Hosting Landing Page.png" alt="">
+                <div class="layer">
+                    <h3>Hosting Site Page</h3>
+                    <p>Hosting: reliable, scalable. Elevate your online presence today.</p>
+                    <a href="./images/All project/02_Project- Hosting Site Landing Page/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/All project/03_Project- Gaming Landing Page/Gaming Landing Page.png" alt="">
+                <div class="layer">
+                    <h3>Gaming Landing Page</h3>
+                    <p>Elevate gaming: Explore, join, embrace the thrill like never before.</p>
+                    <a href="./images/All project/03_Project- Gaming Landing Page/Project 3- Gaming Landing Page/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/All project/04_Project- Real Estate Landing Page/Real Estate - Desktop.png" alt="">
+                <div class="layer">
+                    <h3>Real Estate Landing Page</h3>
+                    <p>Find your dream home, start your new journey today.</p>
+                    <a href="./images/All project/04_Project- Real Estate Landing Page/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/All project/Project1/output.png" alt="">
+                <div class="layer">
+                    <h3>Business App page</h3>
+                    <p>Business:Streamline, boost productivity, achieve success anywhere. Get started.</p>
+                    <a href="./images/All project/Project1/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/All project/Project2/output1.png.png" alt="">
+                <div class="layer">
+                    <h3>Tour and travels App</h3>
+                    <p>Explore, plan adventures, create unforgettable memories. Start today.</p>
+                    <a href="./images/All project/Project2/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/All project/Project3/output3.png" alt="">
+                <div class="layer">
+                    <h3>Fashion Trending App</h3>
+                    <p>Stay stylish: Discover trends, shop in style, redefine your wardrobe. Start now.</p>
+                    <a href="./images/All project/Project3/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/All project/Project4/output4.png" alt="">
+                <div class="layer">
+                    <h3>Health Care Solution App</h3>
+                    <p>Access resources, track progress, embrace a healthier life. Start now.</p>
+                    <a href="./images/All project/Project4/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/All project/Project5/output5.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Immerse in music: Discover, create playlists, let rhythm guide you. Start listening now.</p>
+                    <a href="./images/All project/Project5/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/All project/Project6/Output6.png" alt="">
+                <div class="layer">
+                    <h3>Government Law App</h3>
+                    <p>Navigate law: Access regulations, resources, empower your legal journey.</p>
+                    <a href="./images/All project/Project6/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/All project/Clone VS Code Website/Screenshot 2023-09-15 010927.png" alt="">
+                <div class="layer">
+                    <h3>VS Code clone</h3>
+                    <p>VSCode: Efficient, powerful code editor awaits. Boost productivity like never before.</p>
+                    <a href="./images/All project/Clone VS Code Website/Index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./images/All project/DOM P4 done/04_DOM Project/Screenshot 2023-09-15 011737.png" alt="">
+                <div class="layer">
+                    <h3>Gaming App</h3>
+                    <p>Dive into gaming: Thrilling adventures, connect, level up your experience.</p>
+                    <a href="./images/All project/DOM P4 done/04_DOM Project/index.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+</div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------Contact-------------->
+<div id="contct">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>chikuparmar184@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>91+8982774955</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100005753730452"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/rahulparmar8887/"><i class="fa-brands fa-square-instagram"></i></i></a>
+                    <a href="https://www.linkedin.com/in/rahul-parmar-981a32252/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Rahul-parmar1010"><i class="fa-brands fa-square-github"></i></a>
+                </div> 
+                <a href="./images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                   <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>All copyright are reserved <i class="fa-solid fa-heart"></i>Rahul parmar</i></p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+</script>
+
+<!----------For small screen-------------->
+<Script>
+    var sidemenu =document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</Script>
+<!----------contact form Script-------------->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzV--SqSxzKakTKx3-5ybsIWeLjkx_Ywf09SmWsjYEOoWSNb4VTD-3EeMoFCw06JnBQCw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+           msg.innerHTML ="Message sent successfully"
+           setTimeout(function(){
+            msg.innerHTML=""
+           },5000)
+           form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
